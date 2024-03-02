@@ -5,6 +5,7 @@ const nextConfig = {
     '@cloudscape-design/component-toolkit'
   ],
   reactStrictMode: true,
+  output: 'export',
 };
 
 
