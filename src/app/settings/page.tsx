@@ -1,12 +1,13 @@
 'use client'
 
 import { AppLayout } from '@cloudscape-design/components';
+import { type ReactElement } from 'react';
+import Preferences from '../components/preferences/preferences';
 
 import '@cloudscape-design/global-styles/index.css';
-import { type ReactElement } from 'react';
-import Home from './components/home/home';
 
-export default function Main(): ReactElement {
+
+export default function Settings(): ReactElement {
 
   return (
     <AppLayout
@@ -14,7 +15,7 @@ export default function Main(): ReactElement {
       navigationOpen={false}
       toolsHide={true}
       toolsOpen={false}
-      content={<Home />}
+      content={<Preferences />}
     />
   )
 }

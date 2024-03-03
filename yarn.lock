@@ -53,10 +53,15 @@
     tslib "^2.4.0"
     weekstart "^1.1.0"
 
-"@cloudscape-design/global-styles@^1.0.21":
-  version "1.0.21"
-  resolved "https://registry.yarnpkg.com/@cloudscape-design/global-styles/-/global-styles-1.0.21.tgz#f3783c67142962b7d55092f86e3ef5d030bab063"
-  integrity sha512-uXzvmkGLocJfuYf/hII05Z646hcBehAjge1n8CSjmTiknni+KLtZYZeBrGO0adrvSbQ3+NlX1XXonecwGwwYjQ==
+"@cloudscape-design/design-tokens@^3.0.34":
+  version "3.0.34"
+  resolved "https://registry.yarnpkg.com/@cloudscape-design/design-tokens/-/design-tokens-3.0.34.tgz#916c37f4115c1d2c6e10e4ff2a7c57a17dea4f2b"
+  integrity sha512-qzcJa806nnowCtIF3NfleonO6Qs98v2dXx0kz+Zw6+ZXODXp/DNTRkEKjIYBmc8vgszSsvbSK8cLcDJxeVBTuQ==
+
+"@cloudscape-design/global-styles@^1.0.23":
+  version "1.0.23"
+  resolved "https://registry.yarnpkg.com/@cloudscape-design/global-styles/-/global-styles-1.0.23.tgz#fdeafce57efe95109fdbb50afa889e84db0dadb8"
+  integrity sha512-5/tcqVcFH7gfGqGj2DEt8MTn4E+w/c6VlzkozRR4hDTz0ePetkh1zbj+JfE4rzM2TF+keI9b5fLfb5uAGsYCIA==
 
 "@cloudscape-design/test-utils-core@^1.0.0":
   version "1.0.22"
