@@ -24,20 +24,16 @@ No modules.
 |------|------|
 | [aws_route53_record.pages_v4](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/route53_record) | resource |
 | [aws_route53_record.pages_v6](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/route53_record) | resource |
-| [aws_route53_record.sub_ns](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/route53_record) | resource |
-| [aws_route53_zone.sub](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/route53_zone) | resource |
+| [aws_route53_record.site_cname](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/route53_record) | resource |
 | [aws_route53_zone.top](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/data-sources/route53_zone) | data source |
 
 ## Inputs
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| <a name="input_domain_name"></a> [domain\_name](#input\_domain\_name) | n/a | `string` | n/a | yes |
-| <a name="input_pages_domain"></a> [pages\_domain](#input\_pages\_domain) | n/a | `string` | n/a | yes |
-| <a name="input_pages_ips_v4"></a> [pages\_ips\_v4](#input\_pages\_ips\_v4) | n/a | `list(string)` | n/a | yes |
-| <a name="input_pages_ips_v6"></a> [pages\_ips\_v6](#input\_pages\_ips\_v6) | n/a | `list(string)` | n/a | yes |
-| <a name="input_profile"></a> [profile](#input\_profile) | n/a | `string` | n/a | yes |
-| <a name="input_subdomain_name"></a> [subdomain\_name](#input\_subdomain\_name) | n/a | `string` | n/a | yes |
+| <a name="input_domain_name"></a> [domain\_name](#input\_domain\_name) | Apex domain for site | `string` | n/a | yes |
+| <a name="input_pages_config"></a> [pages\_config](#input\_pages\_config) | Github Pages configuration | <pre>object({<br>    txt = object({<br>      key   = string<br>      value = string<br>    })<br>    ips = object({<br>      v4 = list(string)<br>      v6 = list(string)<br>    })<br>  })</pre> | n/a | yes |
+| <a name="input_profile"></a> [profile](#input\_profile) | AWS profile string | `string` | n/a | yes |
 
 ## Outputs
 
