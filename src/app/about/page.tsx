@@ -3,6 +3,7 @@
 import { Box, Header, TextContent } from '@cloudscape-design/components';
 import '@cloudscape-design/global-styles/index.css';
 import Image from 'next/image';
+import BuyMeACoffeeButton from '../components/coffee';
 import SitePage from '../components/sitepage';
 
 export default function About() {
@@ -28,6 +29,10 @@ export default function About() {
               <li>Cloud Engineer : 2018+ </li>
             </ul>
           </TextContent>
+          <br />
+          <br />
+          <br />
+          <BuyMeACoffeeButton />
         </Box>
       }
     />
