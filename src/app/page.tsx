@@ -9,7 +9,7 @@ export default function Main(): ReactElement {
 
   return (
     <SitePage
-      header='Personal Site'
+      header='Welcome!'
       content={<Home />}
     />
   )

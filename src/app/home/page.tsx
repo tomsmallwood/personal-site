@@ -1,16 +1,14 @@
 'use client'
 
-import { Header, SpaceBetween, TextContent } from '@cloudscape-design/components';
+import { SpaceBetween, TextContent } from '@cloudscape-design/components';
 import '@cloudscape-design/global-styles/index.css';
 
 const Home = () => {
 
   return (
     <SpaceBetween size="m">
-      <Header variant="h2">Welcome!</Header>
       <TextContent>
-        <br />
-        <p>I aim to make regular contributions to my blog as well as adding more information about me.</p>
+        <p>The aim of this site is to be a place where I can share tech blogs, news and projects.</p>
       </TextContent>
     </SpaceBetween >
   )

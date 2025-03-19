@@ -17,6 +17,13 @@ const Navbar = () => {
         [
           {
             type: "button",
+            text: "Donate",
+            href: "https://buymeacoffee.com/tomsmallwood",
+            external: true,
+            externalIconAriaLabel: "(opens in a new tab)"
+          },
+          {
+            type: "button",
             text: "Github",
             href: "https://github.com/tomsmallwood",
             external: true,
