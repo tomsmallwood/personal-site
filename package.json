@@ -11,20 +11,22 @@
   },
   "dependencies": {
     "@cloudscape-design/components": "^3.0.478",
-    "@cloudscape-design/global-styles": "^1.0.21",
+    "@cloudscape-design/global-styles": "^1.0.23",
     "next": "14.0.4",
     "react": "^18",
     "react-dom": "^18"
   },
   "devDependencies": {
+    "@svgr/webpack": "^8.1.0",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "@typescript-eslint/eslint-plugin": "^6.4.0",
-    "eslint": "^8.0.1",
+    "eslint": "^8.57.0",
     "eslint-config-next": "14.0.4",
     "eslint-config-standard-with-typescript": "^43.0.0",
     "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-jsx-a11y": "^6.8.0",
     "eslint-plugin-n": "^15.0.0 || ^16.0.0 ",
     "eslint-plugin-promise": "^6.0.0",
     "typescript": "*"
